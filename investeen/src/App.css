@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.App-NavigationBar {
+  /* border-bottom: black;
+  border-bottom-width: 5px; */
+  border-width: 2px;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
