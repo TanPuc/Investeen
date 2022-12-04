@@ -1,7 +1,8 @@
 .App {
   text-align: center;
+  align-items: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,13 +27,56 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 .App-NavigationBar {
-  /* border-bottom: black;
-  border-bottom-width: 5px; */
-  border-width: 2px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  width: 100%;
+  border-bottom: #25316D;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-style:solid;
+}
 
+.App-Logo {
+  order: 0;
+  margin: 0;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  width: 25%;
+  height: 8%;
+  border: #25316D solid 1px;
+}
+
+.App-NavigationBarTopRight {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.App-FinancialTest {
+  width: 25%;
+  /* margin-top: 50%; */
+  height: auto;
+  border: #25316D solid 1px;
+}
+
+.App-FinancialPlan {
+  width: 25%;
+  height: auto;
+  border: #25316D solid 1px;
+}
+
+.App-Investment {
+  width: 25%;
+  height: auto;
+  border: #25316D solid 1px;
 }
 
 @keyframes App-logo-spin {
