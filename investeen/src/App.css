@@ -106,7 +106,7 @@
   height: 57px;
 }
 
-.first-section {
+.headline {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 75px;
   color: #444573;
@@ -116,7 +116,7 @@
   margin-top: 7%;
 }
 
-.second-section {
+.description {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: #444573;
@@ -147,5 +147,22 @@
   margin-right: -800px;
   width: 500px;
   height: 320px;
+}
 
+.reality {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444573;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 17%;
+  margin-left: 60%;
+  margin-right: 10%;
+}
+
+.home-page-pic2 {
+  margin-top: -500px;
+  margin-left: -800px;
+  width: 500px;
+  height: 320px;
 }

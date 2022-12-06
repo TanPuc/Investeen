@@ -15,9 +15,8 @@ function App() {
       </div>
 
       <div className='home-first-section'> 
-      <h1 className='first-section'>Investeen</h1>
-      <h2 className='second-section'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính.</h2>     
-      
+      <h1 className='headline'>Investeen</h1>
+      <h2 className='description'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính.</h2>     
       </div>
 
       <div className= 'test-button-ct'>  
@@ -29,9 +28,17 @@ function App() {
       <div className='home-page-pic'>
       <img className='home-page-pic1' src={require('./Assets/homepagepic1.jpg')}></img>
       </div>
-      {/* <div className= 'home-page-pic1'> 
-      <img className='User' src={require('./Assets/homepagepic1.jpg')}></img>
-      </div> */}
+
+      <div className='home-second-section'> 
+        <p className='reality'> 
+        Tài chính luôn là một vấn đề “đau đầu” với tất cả mọi người, ở mọi độ tuổi, đặc biệt là các bạn trẻ ở trong độ tuổi Gen Z. Các bạn vẫn chưa hoàn toàn có sự hiểu biết và nhận thức đúng đắn về chi tiêu và lĩnh vực tài chính.
+        <br></br>
+        <br></br>
+        Chính vì vậy nhóm RDOL đã khởi tạo trang web Investeen với mong muốn giúp đỡ các bạn trẻ có kế hoạch rõ ràng về việc quản lý tài chính, chi tiêu và tiết kiệm.
+        </p>
+        <img className='home-page-pic2' src={require('./Assets/homepagepic2.jpg')}></img>
+      </div>
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
