@@ -11,7 +11,7 @@ function App() {
           <a className="App-NavBox">Kế hoạch chi tiêu</a>
           <a className="App-NavBox">Đầu tư</a>
         </div>
-        <a className="App-UserLogo"><img src={require('./Assets/Avatar.png')}></img></a>
+        <a className="App-UserLogo"><img className='User' src={require('./Assets/Avatar.png')}></img></a>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
