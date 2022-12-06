@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-NavigationBar">
-        <p className="App-Logo">Investeen</p>
+        <p className="App-Logo"><img className='Logo' src={require('./logo.png')}></img></p>
         <div className="App-NavigationBarTopRight">
           <a className="App-NavBox">Kiểm tra</a>
           <a className="App-NavBox">Kế hoạch chi tiêu</a>
@@ -18,7 +18,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <ae
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
