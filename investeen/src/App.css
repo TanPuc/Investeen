@@ -108,22 +108,44 @@
 
 .first-section {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 70px;
-  
+  font-size: 75px;
   color: #444573;
   font-weight: bold; 
   text-align: left;
-  margin: 5%;
-  padding: 0%;
+  margin-left: 5%;
+  margin-top: 7%;
 }
 
 .second-section {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #444573;
   /* font-weight: bold; */
   text-align: left;
   margin-left: 5%;
-  margin-right: 51%;
-  /* padding: 0%; */
+  margin-right: 55%;
+  margin-top: -2%;
+}
+
+.start-test-button-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  /* font-size: 25px; */
+}
+
+.test-button {
+  margin-left: -1020px;
+  margin-top: 2%;
+  background-color: #446389;
+  border: #25316D solid 1px;
+}
+
+.home-page-pic1 {
+  margin-top: -20%;
+  margin-right: -800px;
+  width: 500px;
+  height: 320px;
+
 }
