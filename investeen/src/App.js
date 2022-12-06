@@ -7,11 +7,11 @@ function App() {
       <div className="App-NavigationBar">
         <p className="App-Logo">Investeen</p>
         <div className="App-NavigationBarTopRight">
-          <a className="App-FinancialTest">Kiểm tra</a>
-          <a className="App-FinancialPlan">Kế hoạch chi tiêu</a>
-          <a className="App-Investment">Đầu tư</a>
+          <a className="App-NavBox">Kiểm tra</a>
+          <a className="App-NavBox">Kế hoạch chi tiêu</a>
+          <a className="App-NavBox">Đầu tư</a>
         </div>
-        <a className="App-UserLogo"></a>
+        <a className="App-UserLogo"><img src={require('./Assets/Avatar.png')}></img></a>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
