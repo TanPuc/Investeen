@@ -22,8 +22,9 @@
 import * as React from "react";
 import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
+import NavBar from "./navBar";
 
-function home() {
+function Appa() {
   return (
     <div className="App">
       <div className="App-NavigationBar">
@@ -38,44 +39,19 @@ function home() {
         <a className="App-UserLogo"><img className='User' src={require('./Assets/userAvatar.png')}></img></a>
       </div>
 
-      <div className='home-first-section'> 
+      <div className='home-first-section'>
       <h1 className='first-section'>Investeen</h1>
       <h2 className='second-section'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính</h2>
       </div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <ae
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }
 function App() {
   return (
     <div>
-      <div>
-
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
+      <NavBar/>
     </div>
-    
-  );
-  
+  )
 }
 
-export default App;
+export default App
