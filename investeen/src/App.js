@@ -18,13 +18,11 @@ function App() {
       <h1 className='headline'>Investeen</h1>
       <h2 className='description'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính.</h2>     
       </div>
-
       <div className= 'test-button-ct'>  
       <button className='test-button' onClick='BẮT ĐẦU BÀI TEST'>
       <p className='start-test-button-text'>BẮT ĐẦU BÀI TEST</p>
 </button> 
       </div>
-      
       <div className='home-page-pic'>
       <img className='home-page-pic1' src={require('./Assets/homepagepic1.jpg')}></img>
       </div>
@@ -37,6 +35,17 @@ function App() {
         Chính vì vậy nhóm RDOL đã khởi tạo trang web Investeen với mong muốn giúp đỡ các bạn trẻ có kế hoạch rõ ràng về việc quản lý tài chính, chi tiêu và tiết kiệm.
         </p>
         <img className='home-page-pic2' src={require('./Assets/homepagepic2.jpg')}></img>
+      </div>
+
+      <div className='home-third-section'> 
+        <p className='solution'>
+        Chúng tôi đã nghiên cứu bộ câu hỏi của bài test dựa trên những nguồn uy tín cùng với sự tư vấn của những chuyên gia hàng đầu.
+        <br></br>
+        <br></br>
+        <a href="https://www.16personalities.com/" title="nguồn tham khảo" target="_blank" class="nguon-tham-khao">Nguồn tham khảo </a>
+        được nhiều chuyên gia công nhận mà chúng tôi tin dùng để xây dựng bộ câu hỏi của mình.
+        </p>
+        <img className='home-page-pic3' src={require('./Assets/homepagepic3.jpg')}></img>
       </div>
 
       {/* <header className="App-header">
