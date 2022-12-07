@@ -1,21 +1,61 @@
-import "./styles/investPage.css"
+// import React from "react";
+// import "./styles/investPage.css";
 
-function investPage () {
-    return (
-        <div className="investPage">
-            <div className="App-NavigationBar">
-                <p className="App-Logo">Investeen</p>
-                    <div className="App-NavigationBarTopRight">
-                        <a className="App-NavBox" href=''>Kiểm tra</a>
-                        <a className="App-NavBox">Kế hoạch chi tiêu</a>
-                        <a className="App-NavBox">Đ</a>
-                    </div>
-                <a className="App-UserLogo"><img className='User' src={require('../Assets/Avatar.png')}></img></a>
-            </div>
+// function investPage () {
+//   return (
+//     <div className="investPage">
+//         <a>askjdkhasd</a>
+//       {/* <div className="App-NavigationBar">
+//         <div className="App-Logo">
+//           <img className="Logo" src={require("../logo.png")}/>
+//         </div>
+//         <nav className="item">
+//           <ul className="ul">
+//             <li>
+//               <Link to="/home">Trang chủ</Link>
+//             </li>
+//             <li>
+//               <Link to="/financialplan">Kế hoạch chi tiêu</Link>
+//             </li>
+//             <li>
+//               <Link to="/investment">Đầu tư</Link>
+//             </li>
+//           </ul>
+//         </nav>
+//       </div> */}
+//     </div>
+//   );
+// };
+
+// export default investPage;
+
+import * as React from "react";
+import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import "./styles/investPage.css";
+
+function investPage() {
+  return (
+    <div className="NavBar">
+      <div className="App-NavigationBar">
+        <div className="App-Logo">
+          <img className="Logo" src={require("../logo.png")}></img>
         </div>
-    )
-
+        <nav className="item">
+          <ul className="ul">
+            <li>
+              <Link to="/home">Trang chủ</Link>
+            </li>
+            <li>
+              <Link to="/financialplan">Kế hoạch chi tiêu</Link>
+            </li>
+            <li>
+              <Link to="/investment">Đầu tư</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  )
 }
 
-
-export default investPage;
+export default investPage
