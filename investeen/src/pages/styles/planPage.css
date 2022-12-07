@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.NavBar {
+text-align: center;
+align-items: center;
+}
+
+.NavigationBar {
+/* text-align: center; */
+display: flex;
+flex-direction: row;
+height: 65px;
+width: 100%;
+border-width: 0px;
+border-bottom: #25316d;
+border-bottom-width: 1px;
+border-style: solid;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-Logo {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1rem;
+  width: 25%;
+  height: 3rem;
+}
+.Logo {
+width: 200px;
+height: 100%;
+}
+
+.ul {
+display: flex;
+margin: 25px;
+}
+
+li {
+margin: 0 2rem;
+}
+
+a {
+text-decoration: none;
+color:#25316d;
+font-weight: bolder;
+
+}
+
+.NavigationBarTopRight {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+width: 100%;
+/* height: auto; */
+height: auto;
+}
+
+.NavBox {
+width: auto;
+margin-left: 40px;
+margin-right: 40px;
+/* margin-top: 50%; */
+height: auto;
+/* border: #25316D solid 2px; */
+font-family: Palatino Linotype;
+font-size: 20px;
+font-weight: bold;
+color: #444573;
+}
+.User {
+margin-left: -27px;
+width: 100px;
+height: 57px;
+}
