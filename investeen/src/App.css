@@ -88,6 +88,7 @@
   font-size: 20px;
   font-weight: bold;
   color: #444573;
+  cursor: pointer;
 }
 
 .App-UserLogo {
@@ -98,12 +99,14 @@
   overflow: hidden;
   border-radius: 40px;
   border: #25316D solid 2px;
+  cursor: pointer;
 }
 .User {
   margin-top: -6px;
   margin-left: -27px;
   width: 100px;
   height: 57px;
+  cursor: pointer;
 }
 
 .headline {
@@ -132,6 +135,7 @@
   color: white;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
   /* font-size: 25px; */
 }
 
