@@ -5,6 +5,7 @@ import App from './App';
 import PlanPage from './pages/planPage';
 import Investment from './pages/investPage';
 import reportWebVitals from './reportWebVitals';
+import TestPage from './pages/testPage';
 import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,8 +16,9 @@ root.render(
       <Routes>
         <Route path='/' element={<App/>}/>
         <Route path='/home' element={<App/>}/>
-        <Route path='/financialplan' element={<PlanPage/>}/>
+        <Route path='/financialplan' element={<PlanPage/>}/>  
         <Route path='/investment' element={<Investment/>}/>
+        <Route path='/test' element={<TestPage/>}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

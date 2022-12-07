@@ -1,58 +1,19 @@
 .App {
-    text-align: center;
-    align-items: center;
-  }
-  
-  .App-NavigationBar {
-    /* text-align: center; */
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 100%;
-    border-width: 0px;
-    border-bottom: #25316D;
-    border-bottom-width: 1px;
-    border-style: solid;
-  }
-  
-  .App-Logo {
-    border: 0;
-    width: 25%;
-    height: auto;
-    /* border: #25316D solid 2px; */
-  }
-  .App-NavigationBarTopRight {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    /* height: auto; */
-    height: auto;
-  }
-  
-  .App-NavBox {
-    width: auto;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* margin-top: 50%; */
-    height: auto;
-    /* border: #25316D solid 2px; */
-  }
-  
-  .App-UserLogo {
-    margin-top: 0.2%;
-    margin-right: 2%;
-    /* padding: 2px; */
-    width: 50px;
-    height: 39px;
-    overflow: hidden;
-    border-radius: 25px;
-    border: #25316D solid 2px;
-    /* display: flex;
-    justify-content: center; */
-  }
-  .User {
-    width: 40px;
-    height: 40px;
-  }
+  background-color: #242728;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #242728;
+  padding: 20px;
+  color: rgb(210, 203, 145);
+  text-align: center;
+  border-bottom: 1px solid rgb(210, 203, 145);
+}
+
+.App-intro {
+  font-size: large;
+}

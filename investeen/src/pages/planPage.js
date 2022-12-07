@@ -15,6 +15,9 @@ function planPage() {
               <Link to="/home">Trang chủ</Link>
             </li>
             <li>
+              <Link to="/test">Kiểm tra</Link>
+            </li>
+            <li>
               <Link to="/financialplan">Kế hoạch chi tiêu</Link>
             </li>
             <li>

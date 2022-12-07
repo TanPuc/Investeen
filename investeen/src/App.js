@@ -15,6 +15,9 @@ function App() {
               <Link to="/home">Trang chủ</Link>
             </li>
             <li>
+              <Link to="/test">Kiểm tra</Link>
+            </li>
+            <li>
               <Link to="/financialplan">Kế hoạch chi tiêu</Link>
             </li>
             <li>
@@ -30,7 +33,9 @@ function App() {
       </div>
       <div className= 'test-button-ct'>  
       <button className='test-button' onClick='BẮT ĐẦU BÀI TEST'>
-      <p className='start-test-button-text'>BẮT ĐẦU BÀI TEST</p>
+      <p className='start-test-button-text'><li>
+              <Link to="/test">BẮT ĐẦU BÀI TEST</Link>
+            </li></p>
 </button> 
       </div>
       <div className='home-page-pic'>
