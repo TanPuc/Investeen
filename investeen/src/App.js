@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
       <h2 className='description'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính.</h2>     
       </div>
       <div className= 'test-button-ct'>  
-      <button className='test-button' onClick='BẮT ĐẦU BÀI TEST'>
+      <button className='test-button' onClick={() => console.log('BẮT ĐẦU BÀI TEST')}>
       <p className='start-test-button-text'><li>
               <Link to="/test">BẮT ĐẦU BÀI TEST</Link>
             </li></p>
@@ -57,7 +57,7 @@ function App() {
         Chúng tôi đã nghiên cứu bộ câu hỏi của bài test dựa trên những nguồn uy tín cùng với sự tư vấn của những chuyên gia hàng đầu.
         <br></br>
         <br></br>
-        <a href="https://www.16personalities.com/" title="nguồn tham khảo" target="_blank" class="nguon-tham-khao">Nguồn tham khảo </a>
+        <a href="https://www.16personalities.com/" title="nguồn tham khảo" target="_blank" className="nguon-tham-khao">Nguồn tham khảo </a>
         được nhiều chuyên gia công nhận mà chúng tôi tin dùng để xây dựng bộ câu hỏi của mình.
         </p>
         <img className='home-page-pic3' src={require('./Assets/homepagepic3.jpg')}></img>

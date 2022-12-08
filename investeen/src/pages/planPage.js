@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./styles/planPage.css";
 
 function planPage() {

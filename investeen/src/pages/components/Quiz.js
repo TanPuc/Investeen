@@ -23,10 +23,9 @@ function Quiz(props) {
     <CSSTransition
       className="container"
       component="div"
-      transitionName="fade"
+      timeout={500}
       transitionEnterTimeout={800}
       transitionLeaveTimeout={500}
-      transitionAppear
       transitionAppearTimeout={500}
     >
       <div key={props.questionId}>

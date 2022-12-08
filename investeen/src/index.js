@@ -6,7 +6,7 @@ import PlanPage from './pages/planPage';
 import Investment from './pages/investPage';
 import reportWebVitals from './reportWebVitals';
 import TestPage from './pages/testPage';
-import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
