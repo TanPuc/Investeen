@@ -21,7 +21,6 @@ code {
 body {
   margin: 0;
   padding: 0;
-  /* background: #434748; */
   font-family: 'Montserrat';
 }
 
@@ -31,9 +30,8 @@ body {
   margin: 0 auto;
   background: #242728;
   border-radius: 3px;
-  border: 1px solid rgb(210, 203, 145);
+  border: 1px solid #446389;
   box-shadow: rgba(249, 249, 249, 0.3) 0px 0px 20px 0px;
-  background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0.3) 2px);
   background-color: initial;
 }
 
@@ -45,7 +43,7 @@ body {
 
 .result {
   padding: 1.5rem 2.5rem;
-  color: #D2CB91;
+  color: #25316d;
 }
 
 .answerOptions {
@@ -57,22 +55,23 @@ body {
 .questionCount {
   padding: 1.5rem 2.5rem 0;
   font-size: 14px;
-  color: #D2CB91;
+  color: #25316d;
 }
 
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
-  color: rgb(221 219 216);
+  color: #25316D;
+  font-weight: bold;
 }
 
 .answerOption {
-  border-top: 1px solid rgb(210, 203, 145);
-  color: #D2CB91;
+  border-top: 1px solid #4548EB;
+  color: #25316d;
 }
 
 .answerOption:hover {
-  background-color: rgb(70, 69, 50);
+  background-color:#B1B2FF;
 }
 
 .radioCustomButton {
@@ -101,13 +100,13 @@ body {
   position: absolute;
   top: 20px;
   left: 38px;
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   content: '';
   display: inline-block;
   vertical-align: middle;
-  background: #3c4042;
-  border: 1px solid rgb(210, 203, 145);
+  /* background: #151F28; */
+  border: 3px solid #B1B2FF;
   border-radius: 50%;
   transition: all 0.3s;
 }
@@ -115,7 +114,7 @@ body {
 .radioCustomButton:checked ~ .radioCustomLabel:before {
   content: '';
   background: #8bc53f url(./pages/svg/icon-check.svg) no-repeat;
-  background-size: 27px;
+  background-size: 22px;
   border-color: #8bc53f;
 }
 
@@ -148,4 +147,33 @@ body {
 .fade-appear.fade-appear-active {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+}
+
+.Tbody {
+  display: flex;
+  flex-direction: row;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.returnBox1 {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: larger;
+  width: 100px;
+  height: 120px;
+  border: 2px solid;
+}
+
+.returnBox2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  border: 2px solid;
 }

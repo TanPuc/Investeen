@@ -3,6 +3,7 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './styles/testPage.css';
+import { Link } from 'react-router-dom';
 
 class testPage extends Component {
   constructor(props) {
@@ -111,8 +112,30 @@ class testPage extends Component {
   render() {
     return (
       <div className="App">
+        <div className="App-NavigationBar">
+        <div className="App-Logo">
+          <img className="Logo" src={require("../logo.png")}></img>
+        </div>
+        <nav className="item">
+          <ul className="ul">
+            <li>
+              <Link to="/home">Trang chủ</Link>
+            </li>
+            <li>
+              <Link to="/test">Kiểm tra</Link>
+            </li>
+            <li>
+              <Link to="/financialplan">Kế hoạch chi tiêu</Link>
+            </li>
+            <li>
+              <Link to="/investment">Đầu tư</Link>
+            </li>
+          </ul>
+        </nav>
+        <a className="App-UserLogo"><img className='User' src={require('../Assets/userAvatar.png')}></img></a>
+      </div>
         <div className="App-header">
-          <img src="https://i.imgur.com/pEds07b.png" className="App-logo" alt="logo" />
+          {/* <img src="https://i.imgur.com/pEds07b.png" className="App-logo" alt="logo" /> */}
           <h2>Test</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
