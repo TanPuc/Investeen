@@ -48,7 +48,7 @@ body {
 }
 
 .test-button {
-  margin-left: -1020px;
+  margin-left: -50%;
   margin-top: 2%;
   border-radius: 25px;
   background-color: #446389;
