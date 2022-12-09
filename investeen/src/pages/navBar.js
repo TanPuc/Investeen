@@ -21,7 +21,7 @@ function NavBar() {
                 <Link to="/financialplan">Kế hoạch chi tiêu</Link>
               </li>
               <li>
-                <Link to="/investment">Đầu tư</Link>
+                <Link to="/investment">Kiến Thức</Link>
               </li>
             </ul>
           </nav>
