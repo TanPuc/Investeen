@@ -37,9 +37,14 @@ body {
   /* font-size: 25px; */
 }
 
+.start-test-button-text a {
+  color: white;
+}
+
 .test-button {
   margin-left: -1020px;
   margin-top: 2%;
+  border-radius: 25px;
   background-color: #446389;
   border: gainsboro solid 1px;
 }
