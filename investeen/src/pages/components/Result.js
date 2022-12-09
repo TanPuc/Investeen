@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
 import quizQuestions from "../api/quizQuestions";
+var TotalPers=0;
 function Result(props) {
   return (
     <CSSTransition
@@ -17,9 +18,21 @@ function Result(props) {
         <h1> Result</h1>
         <table style={{ width: "100%" }} className='table'>
           <tbody className="Tbody">
+          {props.quizResult.map((items, index) => 
+            {
+                  
+                  {items.map((subItems, sIndex) => {
+                      if (sIndex != 0) {
+                        TotalPers+=subItems
+                      }
+                  })}
+            })}
             {props.quizResult.map((items, index) => {
+              
               return (
                 <tr key={index}>
+                  
+
                   {items.map((subItems, sIndex) => {
                     if (sIndex === 0) {
                       return (
@@ -32,7 +45,7 @@ function Result(props) {
                       return (
                         <td className="returnBox2" key={sIndex}>
                           {" "}
-                          {(subItems / quizQuestions.length) * 100}%
+                          {Number( ( (subItems / (TotalPers/2 )*100).toFixed(1)))}%
                         </td>
                       );
                     }
