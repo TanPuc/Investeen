@@ -40,7 +40,7 @@ function Result(props) {
                       return (
                         <td className="returnBox2" key={sIndex}>
                           {" "}
-                          {Number( ( Math.round(subItems / (TotalPers/2 )*100).toFixed(1)))}%
+                          {Number( ( subItems / (TotalPers/2 )*100).toFixed(1))}%
                         </td>
                       );
                     }

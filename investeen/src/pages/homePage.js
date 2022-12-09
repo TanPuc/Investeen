@@ -4,7 +4,7 @@ import "./styles/homePage.css";
 
 function homePage() {
   return (
-    <div>
+    <div className="App">
       <div className='home-first-section'> 
       <h1 className='headline'>Investeen</h1>
       <h2 className='description'>Hiểu được rõ hơn về xu hướng chi tiêu của bản thân. Lên kế hoạch tiết kiệm cho những mục tiêu tương lai & Xây dựng nền tảng về kiến thức tài chính.</h2>     
@@ -12,12 +12,12 @@ function homePage() {
       <div className= 'test-button-ct'>  
       <button className='test-button' onClick={() => console.log('BẮT ĐẦU BÀI TEST')}>
       <p className='start-test-button-text'><li>
-              <Link to="/test">BẮT ĐẦU BÀI TEST</Link>
+              <Link to="/test">BẮT ĐẦU BÀI KIỂM TRA</Link>
             </li></p>
 </button> 
       </div>
       <div className='home-page-pic'>
-      <img className='home-page-pic1' src={require('../Assets/homepagepic1.jpg')}></img>
+        <img className='home-page-pic1' src={require('../Assets/homepagepic1.jpg')}></img>
       </div>
 
       <div className='home-second-section'> 

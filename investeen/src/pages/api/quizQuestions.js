@@ -8,7 +8,7 @@ var quizQuestions = [
         //4: 4
         //5: 5
         
-        question:"Bạn thường làm gì với tiền tiêu vặt của mình",
+        question:"Bạn thường làm gì với tiền tiêu vặt của mình?",
         answers: [
             {
                 type:"31",
@@ -25,7 +25,7 @@ var quizQuestions = [
         ]
     },
     {
-        question:"Theo bạn, tiền sẽ mang lại những gì cho bạn trong cuộc sống",
+        question:"Theo bạn, tiền sẽ mang lại những gì cho bạn trong cuộc sống?",
         answers: [
             {
                 type:"3",
@@ -119,7 +119,7 @@ var quizQuestions = [
         ]
     },
     {
-        question:"Bạn có phải là người luôn sở hữu dòng điện thoại mới nhất không? ( chẳng hạn như Iphone 14 Pro Max) ?",
+        question:"Bạn có phải là người luôn sở hữu dòng điện thoại mới nhất không? (chẳng hạn như Iphone 14 Pro Max) ?",
         answers: [
             {
                 type:"5",
@@ -260,7 +260,7 @@ var quizQuestions = [
         ]
     },
     {
-        question:"Bạn có dám thử thách bản thân trong những lĩnh vực kiếm tiền mới không? ",
+        question:"Bạn có dám thử thách bản thân trong những lĩnh vực kiếm tiền mới không?",
         answers: [
             {
                 type:"4",
@@ -338,7 +338,7 @@ var quizQuestions = [
         ]
     },
     {
-        question:"Khi thiếu tiền bạn sẽ có cách giải quyết như thế nào sau đây:",
+        question:"Khi thiếu tiền bạn sẽ có cách giải quyết như thế nào sau đây",
         answers: [
             {
                 type:"5",
