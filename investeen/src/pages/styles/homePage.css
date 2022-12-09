@@ -1,58 +1,90 @@
-.App {
-    text-align: center;
-    align-items: center;
-  }
-  
-  .App-NavigationBar {
-    /* text-align: center; */
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 100%;
-    border-width: 0px;
-    border-bottom: #25316D;
-    border-bottom-width: 1px;
-    border-style: solid;
-  }
-  
-  .App-Logo {
-    border: 0;
-    width: 25%;
-    height: auto;
-    /* border: #25316D solid 2px; */
-  }
-  .App-NavigationBarTopRight {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    /* height: auto; */
-    height: auto;
-  }
-  
-  .App-NavBox {
-    width: auto;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* margin-top: 50%; */
-    height: auto;
-    /* border: #25316D solid 2px; */
-  }
-  
-  .App-UserLogo {
-    margin-top: 0.2%;
-    margin-right: 2%;
-    /* padding: 2px; */
-    width: 50px;
-    height: 39px;
-    overflow: hidden;
-    border-radius: 25px;
-    border: #25316D solid 2px;
-    /* display: flex;
-    justify-content: center; */
-  }
-  .User {
-    width: 40px;
-    height: 40px;
-  }
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 75px;
+  color: #444573;
+  font-weight: bold; 
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 7%;
+  margin-bottom: 75px;
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #444573;
+  /* font-weight: bold; */
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 55%;
+  margin-top: -2%;
+}
+
+.start-test-button-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* background-color: aliceblue; */
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  /* font-size: 25px; */
+}
+
+.test-button {
+  margin-left: -1020px;
+  margin-top: 2%;
+  background-color: #446389;
+  border: gainsboro solid 1px;
+}
+
+.home-page-pic1 {
+  margin-top: -20%;
+  margin-right: -800px;
+  width: 500px;
+  height: 320px;
+}
+
+.reality {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444573;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 17%;
+  margin-left: 60%;
+  margin-right: 10%;
+}
+
+.home-page-pic2 {
+  margin-top: -500px;
+  margin-left: -800px;
+  padding-bottom: 100px;
+  width: 500px;
+  height: 320px;
+}
+
+.solution {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #444573;
+  font-weight: bold; 
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 55%;
+  margin-top: 17%;
+}
+
+.home-page-pic3 {
+  margin-top: -20%;
+  margin-right: -800px;
+  margin-bottom: 200px;
+  width: 500px;
+  height: 320px;
+}

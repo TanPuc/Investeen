@@ -74,6 +74,7 @@ body {
   background-color:#B1B2FF;
 }
 
+
 .radioCustomButton {
   position: absolute;
   width: auto;
@@ -105,8 +106,7 @@ body {
   content: '';
   display: inline-block;
   vertical-align: middle;
-  /* background: #151F28; */
-  border: 3px solid #B1B2FF;
+  border: 3px solid #25316D;
   border-radius: 50%;
   transition: all 0.3s;
 }
@@ -152,6 +152,8 @@ body {
 .Tbody {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 tr {
@@ -160,20 +162,43 @@ tr {
 }
 
 .returnBox1 {
-  padding-top: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #25316D;
+  font-size: smaller;
+  font-weight: bold;
+  padding-top: 55px;
   padding-bottom: 50px;
   text-align: center;
   font-size: larger;
   width: 100px;
   height: 120px;
   border: 2px solid;
+  border-radius: 25px;
 }
 
 .returnBox2 {
-  padding-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: xx-large;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
   width: 100px;
   height: 60px;
-  border: 2px solid;
+}
+
+.header {
+  background-color: #25316d;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  
 }

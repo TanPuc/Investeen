@@ -1,24 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import PlanPage from './pages/planPage';
-import Investment from './pages/investPage';
-import reportWebVitals from './reportWebVitals';
-import TestPage from './pages/testPage';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import NavBar from "./pages/navBar";
+import HomePage from "./pages/homePage";
+import PlanPage from "./pages/planPage";
+import Investment from "./pages/investPage";
+import TestPage from "./pages/testPage";
+import reportWebVitals from "./reportWebVitals";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     <Router>
+      <NavBar/>
       <Routes>
-        <Route path='/' element={<App/>}/>
-        <Route path='/home' element={<App/>}/>
-        <Route path='/financialplan' element={<PlanPage/>}/>  
-        <Route path='/investment' element={<Investment/>}/>
-        <Route path='/test' element={<TestPage/>}></Route>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/financialplan" element={<PlanPage />} />
+        <Route path="/investment" element={<Investment />} />
+        <Route path="/test" element={<TestPage/>}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

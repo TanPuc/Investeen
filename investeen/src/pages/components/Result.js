@@ -15,24 +15,19 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        <h1> Result</h1>
         <table style={{ width: "100%" }} className='table'>
           <tbody className="Tbody">
           {props.quizResult.map((items, index) => 
             {
-                  
-                  {items.map((subItems, sIndex) => {
-                      if (sIndex != 0) {
-                        TotalPers+=subItems
-                      }
-                  })}
+              {items.map((subItems, sIndex) => {
+                if (sIndex != 0) {
+                  TotalPers+=subItems
+                }
+              })}
             })}
             {props.quizResult.map((items, index) => {
-              
               return (
                 <tr key={index}>
-                  
-
                   {items.map((subItems, sIndex) => {
                     if (sIndex === 0) {
                       return (
@@ -45,7 +40,7 @@ function Result(props) {
                       return (
                         <td className="returnBox2" key={sIndex}>
                           {" "}
-                          {Number( ( (subItems / (TotalPers/2 )*100).toFixed(1)))}%
+                          {Number( ( Math.round(subItems / (TotalPers/2 )*100).toFixed(1)))}%
                         </td>
                       );
                     }
@@ -54,7 +49,15 @@ function Result(props) {
               );
             })}
           </tbody>
+            <h1>Kết quả</h1>
         </table>
+        {/* <div>
+            <div className="header">
+              <div className="content">
+                <h1>Đặc điểm</h1>
+              </div>
+            </div>
+          </div> */}
       </div>
     </CSSTransition>
   );
