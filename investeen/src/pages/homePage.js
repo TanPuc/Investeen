@@ -17,7 +17,7 @@ function homePage() {
 </button> 
       </div>
       <div className='home-page-pic'>
-        <img className='home-page-pic1' src={require('../Assets/homepagepic1.jpg')}></img>
+        <img className='home-page-pic1' src={require('../Assets/homepagepic1.jpg')} draggable="false"></img>
       </div>
 
       <div className='home-second-section'> 
@@ -27,7 +27,7 @@ function homePage() {
         <br></br>
         Chính vì vậy nhóm RDOL đã khởi tạo trang web Investeen với mong muốn giúp đỡ các bạn trẻ có kế hoạch rõ ràng về việc quản lý tài chính, chi tiêu và tiết kiệm.
         </p>
-        <img className='home-page-pic2' src={require('../Assets/homepagepic2.jpg')}></img>
+        <img className='home-page-pic2' src={require('../Assets/homepagepic2.jpg')} draggable="false"></img>
       </div>
 
       <div className='home-third-section'> 
@@ -38,7 +38,7 @@ function homePage() {
         <a href="https://www.16personalities.com/" title="nguồn tham khảo" target="_blank" className="nguon-tham-khao">Nguồn tham khảo </a>
         được nhiều chuyên gia công nhận mà chúng tôi tin dùng để xây dựng bộ câu hỏi của mình.
         </p>
-        <img className='home-page-pic3' src={require('../Assets/homepagepic3.jpg')}></img>
+        <img className='home-page-pic3' src={require('../Assets/homepagepic3.jpg')} draggable="false"></img>
       </div>
 
     </div>

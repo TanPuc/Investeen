@@ -7,7 +7,7 @@ function NavBar() {
         <div className="NavBar">
         <div className="App-NavigationBar">
           <div className="App-Logo">
-            <img className="Logo" src={require("../logo.png")}></img>
+            <img className="Logo" src={require("../logo.png")} draggable="false"></img>
           </div>
           <nav className="item">
             <ul className="ul">
@@ -25,7 +25,7 @@ function NavBar() {
               </li>
             </ul>
           </nav>
-          <a className="App-UserLogo"><img className='User' src={require('../Assets/userAvatar.png')}></img></a>
+          <a className="App-UserLogo"><img className='User' src={require('../Assets/userAvatar.png')} draggable="false"></img></a>
         </div>
       </div>
     )
