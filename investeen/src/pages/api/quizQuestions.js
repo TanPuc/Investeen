@@ -191,7 +191,7 @@ var quizQuestions = [
                 content: "Có"
             },
             {
-                type: "24",
+                type: "2(4",
                 content: "Không"
             },
         ]
@@ -244,6 +244,19 @@ var quizQuestions = [
             },
             {
                 type: "3",
+                content: "Không"
+            },
+        ]
+    },
+    {
+        question: "Bạn có dám thử thách bản thân trong những lĩnh vực kiếm tiền mới không?",
+        answers: [
+            {
+                type: "4",
+                content: "Có"
+            },
+            {
+                type: "",
                 content: "Không"
             },
         ]

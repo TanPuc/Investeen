@@ -79,7 +79,6 @@ class testPage extends Component {
             AnswerID="Investors";
             break;
         }
-      TotalPers++;
       // console.log(TotalPers)
       
       this.setState((state) => ({
