@@ -67,7 +67,7 @@ var quizQuestions = [
                 content: "Tiêu nhiều hơn"
             },
             {
-                type: "24  ",
+                type: "24",
                 content: "Để dành nhiều hơn"
             },
         ]
@@ -191,7 +191,7 @@ var quizQuestions = [
                 content: "Có"
             },
             {
-                type: "2(4",
+                type: "24",
                 content: "Không"
             },
         ]
@@ -291,7 +291,7 @@ var quizQuestions = [
         question: "Bạn thường mua một món đồ vì lí do nào dưới đây?",
         answers: [
             {
-                type: "42 ",
+                type: "42",
                 content: "Sự hữu dụng và tiện ích"
             },
             {
