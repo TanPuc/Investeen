@@ -256,7 +256,7 @@ var quizQuestions = [
                 content: "Có"
             },
             {
-                type: "",
+                type: "2",
                 content: "Không"
             },
         ]
