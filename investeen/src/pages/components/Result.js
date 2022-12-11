@@ -49,7 +49,7 @@ function Result(props) {
               );
             })}
           </tbody>
-            <h1>Kết quả</h1>
+            {/* <h1>Kết quả</h1> */}
         </table>
         {/* <div>
             <div className="header">
