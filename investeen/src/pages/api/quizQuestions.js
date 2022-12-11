@@ -327,6 +327,19 @@ var quizQuestions = [
         ]
     },
     {
+        question: "Khi thiếu tiền bạn sẽ có cách giải quyết như thế nào sau đây:",
+        answers: [
+            {
+                type: "24",
+                content: "Đi kiếm tiền để từ từ trả nợ"
+            },
+            {
+                type: "3",
+                content: "Mượn tiền bạn bè/ người thân "
+            },
+        ]
+    },
+    {
         question: "Vào dịp cuối năm học khi vở còn dư nhiều trang giấy bạn có hướng giải quyết nào sau đây?",
         answers: [
             {
@@ -343,6 +356,105 @@ var quizQuestions = [
             },
         ]
     },
+    {
+        question: "Vào mỗi dịp cuối tuần khi có thời gian rảnh bạn sẽ thường làm gì dưới đây?",
+        answers: [
+            {
+                type: "13",
+                content: "Đi coi phim, mua sắm,  tụ tập, ăn uống với bạn bè và gia đình"
+            },
+            {
+                type: "2",
+                content: "Ở nhà tự nấu ăn, mua đồ về tự tổ chức tiệc tại nhà cho tiết kiệm"
+            },
+            {
+                type: "4",
+                content: "Làm thêm các công việc khác để kiếm thêm tiền"
+            },
+        ]
+    },
+    {
+        question: "Cuối năm bạn đạt được thành tích học tập tốt, ông bà, cô chú họ hàng thưởng tiền để khích lệ động viên, bạn có xu hướng sử dụng số tiền đó như thế nào dưới đây:",
+        answers: [
+            {
+                type: "1",
+                content: "Mua sắm những món đồ bản thân yêu thích"
+            },
+            {
+                type: "2",
+                content: "Để dành ống heo tiết kiệm"
+            },
+            {
+                type: "4",
+                content: "Gửi ngân hàng để nhận lãi suất"
+            },
+            {
+                type: "2",
+                content: "Đưa cho bố mẹ giữ tiết kiệm giúp"
+            },
+        ]
+    },
+    {
+        question: "Tham gia các CLB hoạt động ngoại khóa trong trường thường bắt buộc các thành viên nộp phí CLB, bạn có thường tham gia các CLB hay không?",
+        answers: [
+            {
+                type: "43",
+                content: "Có, dù tốn khoản tiền nhỏ sinh hoạt phí trong CLB nhưng học và trau dồi được rất nhiều kĩ năng và kiến thức"
+            },
+            {
+                type: "2",
+                content: "Không, tốn thời gian, tiền bạc và công sức"
+            },
+        ]
+    },
+    {
+        question: "Khi màn hình điện thoại/ kính cường lực bị vỡ bạn có xu hướng giải quyết nào dưới đây:",
+        answers: [
+            {
+                type: "1",
+                content: "Mua điện thoại/ kính cường lực mới để thay thế"
+            },
+            {
+                type: "2",
+                content: "Mặc kệ và tiếp tục xài vì cảm thấy xài vẫn ổn"
+            },
+            {
+                type: "4",
+                content: "Bán các linh kiện của điện thoại cho phế liệu hoặc chỗ thu mua điện thoại cũ để lấy tiền"
+            },
+        ]
+    },
+    {
+        question: "Khi muốn đọc một quyển sách mới, bạn thường làm gì?",
+        answers: [
+            {
+                type: "13",
+                content: "Mua bản giấy vì tiện hơn"
+            },
+            {
+                type: "2",
+                content: "Lên tìm bản pdf để không tốn tiền"
+            },
+            {
+                type: "4",
+                content: "Lên mua bản pdf để đỡ tốn thời gian tìm kiếm cũng như giá thành cũng rẻ hơn bản giấy"
+            },
+        ]
+    },
+    {
+        question: "Khi bạn bất chợt có một sở thích mới, ví dụ như nhiếp ảnh, bạn sẽ làm gì sau đây?",
+        answers: [
+            {
+                type: "13",
+                content: "Đầu tư luôn máy ảnh và các vật dụng cần thiết để phục vụ cho đam mê"
+            },
+            {
+                type: "4",
+                content: "Xem xét và so sánh giá cả trên thị trường giữa cái dòng máy các nhau để chọn cái phù hợp với mục đích và túi tiền"
+            },
+        ]
+    },
+    
 ]
 
 export default quizQuestions

@@ -4,7 +4,6 @@ import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './styles/testPage.css';
 import { Link } from 'react-router-dom';
-var TotalPers=0;
 class testPage extends Component {
   constructor(props) {
     super(props);
@@ -62,7 +61,7 @@ class testPage extends Component {
   {
     var AnswerID=""
     console.log()
-    for( var i=0;i<= answer.length;i++)
+    for( var i=0;i<= answer.length-1;i++)
     {
       //console.log(answer[i])
       switch( answer[i] )
@@ -79,14 +78,9 @@ class testPage extends Component {
           case '4':
             AnswerID="Investors";
             break;
-          case '5':
-            AnswerID="Debtors";
-            break;
         }
-      TotalPers++;
-      console.log(TotalPers)
-      
-      this.setState((state) => ({
+        console.log(AnswerID);
+        this.setState((state) => ({
         answersCount: {
                 ...state.answersCount,
                 [ AnswerID ]: (state.answersCount[ AnswerID ] || 0) + 1,
@@ -95,6 +89,7 @@ class testPage extends Component {
 
       }));
     }
+    console.log("");
   }
   
   setNextQuestion() {
