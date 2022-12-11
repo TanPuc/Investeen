@@ -79,8 +79,10 @@ class testPage extends Component {
             AnswerID="Investors";
             break;
         }
-        console.log(AnswerID);
-        this.setState((state) => ({
+      TotalPers++;
+      // console.log(TotalPers)
+      
+      this.setState((state) => ({
         answersCount: {
                 ...state.answersCount,
                 [ AnswerID ]: (state.answersCount[ AnswerID ] || 0) + 1,
@@ -130,11 +132,8 @@ class testPage extends Component {
 
   renderResult() {
     const Data = [].concat(this.state.result);
-    console.log(Data);
     Data.sort((a, b) => a[1] < b[1] ? 1 : -1);
-    Data.map((Subitems) => {
-      console.log(Subitems);
-    });
+    console.log(Data);
     return <Result quizResult={Data} />;
   }
 
